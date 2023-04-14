@@ -86,6 +86,9 @@ const Signup = () => {
         >
           Login with Google
         </button>
+        <Link to="/login">
+        Already registered? Click Here!
+          </Link>
       </form>
     </div>
   );
