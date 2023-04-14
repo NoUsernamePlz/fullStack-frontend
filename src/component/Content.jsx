@@ -3,7 +3,7 @@ import React from "react";
 const Content = () => {
   return (
     <div className="w-75% h-screen flex flex-col justify-center items-center">
-      <div className="text-3xl font-semibold text-gray-800 text-left">
+      <div className="text-3xl font-semibold text-gray-800 text-left  ml-8 mt-8">
         <h1 className="my-9">Learn to code-for free.</h1>
         <h1 className="my-9">Build projects.</h1>
         <h1 className="my-9">Earn certifications.</h1>
@@ -12,7 +12,7 @@ const Content = () => {
           <br></br>
           jobs at tech companies including:
         </h1>
-        <div className="flex flex-col lg:flex-row md:flex-row justify-between text-xl font-semibold ml-8 mt-8">
+        <div className="flex flex-col lg:flex-row md:flex-row justify-between text-xl font-semibold">
           <div className="flex m-1">
             <svg
               fill="#000000"
