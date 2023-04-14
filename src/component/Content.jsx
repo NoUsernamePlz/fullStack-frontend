@@ -12,7 +12,7 @@ const Content = () => {
           <br></br>
           jobs at tech companies including:
         </h1>
-        <div className="flex justify-between text-xl font-semibold ml-8 mt-8">
+        <div className="flex flex-col lg:flex-row md:flex-row justify-between text-xl font-semibold ml-8 mt-8">
           <div className="flex m-1">
             <svg
               fill="#000000"
