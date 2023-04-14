@@ -15,6 +15,7 @@ function App() {
      
         <Routes>
         {user && <Route path="/" exact element={<Main />} />}
+           < user && Route path='/main' Component={<Main/>} />
           <Route path='/content' Component={Content}/>
           <Route path='/signup' Component={Signup}/>
           <Route path='/login' Component={Login}/>
