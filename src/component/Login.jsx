@@ -21,7 +21,7 @@ const Signup = () => {
 			const url = `${process.env.REACT_APP_API_URL}/api/auth`;
 			const { data: res } = await axios.post(url, data);
 			localStorage.setItem("token", res.data);
-            navigate("/");
+            navigate("/main");
 		} catch (error) {
 			if (
 				error.response &&
