@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Content = () => {
   return (
@@ -79,9 +80,11 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <button className="bg-yellow-600 hover:bg-yellow-700 w-52 h-10 my-6 p-3 flex justify-center items-center tracking-wider">
+      <Link to = "/signup">
+      <button className="bg-yellow-600 hover:bg-yellow-700 w-52 h-10 my-6 p-3 mb-6 flex justify-center items-center tracking-wider">
         Get started(it's free)
       </button>
+      </Link>
     </div>
   );
 };
