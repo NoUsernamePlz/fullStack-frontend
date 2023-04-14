@@ -20,8 +20,12 @@ const Signup = () => {
 		try {
 			const url = `${process.env.REACT_APP_API_URL}/api/auth`;
 			const { data: res } = await axios.post(url, data);
-			localStorage.setItem("token", res.data);
-            navigate("/main");
+			let token = "";
+			token = res.data;
+			localStorage.setItem("token", token);
+			navigate("/", { state: { token } });
+			
+           
 		} catch (error) {
 			if (
 				error.response &&
